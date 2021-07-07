@@ -6,10 +6,9 @@ const PrimeraApp = ( { saludo, despedida = "adios popo" }) => {
 	const miObj = {nombre: "Miky", edad: 21} */
 	return ( 
 		<>
-			<h1> { saludo }</h1>
+			<h1>{ saludo }</h1>
 {/*<p> {JSON.stringify(miObj, null, 10)} </p> manera de representar un objeto en hmtl */}
-			<p> { despedida }</p>
-			<p>mi primer parrafo</p>
+			<p>{ despedida }</p>
 		</>
 	)
 }

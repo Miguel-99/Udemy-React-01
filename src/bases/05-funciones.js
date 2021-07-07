@@ -15,19 +15,19 @@
 //funcion mucho mas resumida
 //console.log( saludar2('VegetA'));
 
-const getUser = () =>({
+export const getUser = () =>({
 		uid: 'ABC123',
 		username: 'usuarioRandom',
 });
 
 const user = getUser();
-console.log(user);
+/* console.log(user); */
 
 //Tarea
 // 1. Transformen a una funcion de Flecha
 // 2. Tiene que retornar un objeto implicito
 // 3. Pruebas
-function getUsuarioActivo ( nombre ){
+export function getUsuarioActivo ( nombre ){
 	return {
 		uid: 'ABC123',
 		username: nombre,
@@ -37,5 +37,5 @@ function getUsuarioActivo ( nombre ){
 const getUsuarioActivo2 = (nombre) => ({uid: 'ABC123', username:nombre,});
 
 const usuarioActivo = getUsuarioActivo('Miguel');
-console.log( usuarioActivo );
-console.log( getUsuarioActivo2('Mauro'));w
+/* console.log( usuarioActivo );
+console.log( getUsuarioActivo2('Mauro')); */
